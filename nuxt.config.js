@@ -1,6 +1,10 @@
 const pkg = require('./package')
 
 module.exports = {
+  server: {
+    port: 3000,
+    host: '192.168.1.23'
+  },
   mode: 'spa',
 
   /*

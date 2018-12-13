@@ -6,8 +6,11 @@
       h2.subtitle My home control the Features.
 
       .links
-        a(href="https://nuxtjs.org/" target="_blank").button--green Documentation
-        a(href="https://github.com/nuxt/nuxt.js" target="_blank").button--grey GitHub
+        a(href="/switch").button--green Goto Switch
+      br
+      br
+      .links
+        a(href="https://github.com/yoshiki-0428/myHomeApp" target="_blank").button--grey GitHub
 
 </template>
 
@@ -22,14 +25,6 @@ export default {
 </script>
 
 <style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
